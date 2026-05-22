@@ -1,0 +1,130 @@
+{
+  "basins": [
+    {
+      "id": "B001",
+      "name": "Colorado River Basin",
+      "water_stress_score": 85.4,
+      "population_exposure": 40000000,
+      "agricultural_dependency": 75.2,
+      "industrial_concentration": 45.1,
+      "risk_level": "Critical",
+      "insights": [
+        "23% Above Regional Water Stress Average",
+        "Population Exposure Growing Faster Than Basin Recovery",
+        "High Agricultural Dependency Risk"
+      ],
+      "trends": [
+        {"year": 2019, "stress_level": 70.1, "population_exposure": 38000000},
+        {"year": 2020, "stress_level": 74.5, "population_exposure": 38500000},
+        {"year": 2021, "stress_level": 78.2, "population_exposure": 39000000},
+        {"year": 2022, "stress_level": 82.0, "population_exposure": 39500000},
+        {"year": 2023, "stress_level": 85.4, "population_exposure": 40000000}
+      ],
+      "geo_json": {
+        "type": "Feature",
+        "properties": {"id": "B001", "name": "Colorado River Basin"},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [-114.6, 31.8],
+              [-114.8, 33.0],
+              [-112.0, 36.0],
+              [-110.0, 39.0],
+              [-108.0, 40.5],
+              [-106.0, 39.0],
+              [-108.0, 36.0],
+              [-111.0, 32.5],
+              [-114.6, 31.8]
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "B002",
+      "name": "Nile River Basin",
+      "water_stress_score": 92.1,
+      "population_exposure": 280000000,
+      "agricultural_dependency": 88.5,
+      "industrial_concentration": 30.0,
+      "risk_level": "Extreme",
+      "insights": [
+        "Geopolitical Tensions Elevate Risk Profile",
+        "Agricultural Dependency Nearing Maximum Capacity",
+        "Infrastructure Intelligence Points to Downstream Vulnerability"
+      ],
+      "trends": [
+        {"year": 2019, "stress_level": 85.0, "population_exposure": 260000000},
+        {"year": 2020, "stress_level": 87.5, "population_exposure": 265000000},
+        {"year": 2021, "stress_level": 89.2, "population_exposure": 270000000},
+        {"year": 2022, "stress_level": 91.0, "population_exposure": 275000000},
+        {"year": 2023, "stress_level": 92.1, "population_exposure": 280000000}
+      ],
+      "geo_json": {
+        "type": "Feature",
+        "properties": {"id": "B002", "name": "Nile River Basin"},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [31.0, 31.0],
+              [32.5, 30.0],
+              [32.0, 24.0],
+              [33.0, 15.0],
+              [35.0, 5.0],
+              [32.0, -2.0],
+              [29.0, -2.0],
+              [27.0, 5.0],
+              [30.0, 15.0],
+              [29.0, 24.0],
+              [30.0, 30.0],
+              [31.0, 31.0]
+            ]
+          ]
+        }
+      }
+    },
+    {
+      "id": "B003",
+      "name": "Rhine River Basin",
+      "water_stress_score": 45.3,
+      "population_exposure": 60000000,
+      "agricultural_dependency": 35.0,
+      "industrial_concentration": 82.4,
+      "risk_level": "Moderate",
+      "insights": [
+        "Industrial Concentration Pressure is Primary Driver",
+        "Robust Infrastructure Mitigates Current Scarcity",
+        "Transportation Disruption Risk High During Low Flow"
+      ],
+      "trends": [
+        {"year": 2019, "stress_level": 40.0, "population_exposure": 59000000},
+        {"year": 2020, "stress_level": 42.5, "population_exposure": 59200000},
+        {"year": 2021, "stress_level": 41.2, "population_exposure": 59500000},
+        {"year": 2022, "stress_level": 46.0, "population_exposure": 59800000},
+        {"year": 2023, "stress_level": 45.3, "population_exposure": 60000000}
+      ],
+      "geo_json": {
+        "type": "Feature",
+        "properties": {"id": "B003", "name": "Rhine River Basin"},
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [4.0, 52.0],
+              [6.0, 52.0],
+              [8.0, 50.0],
+              [9.0, 48.0],
+              [10.0, 47.0],
+              [8.0, 47.0],
+              [7.0, 48.0],
+              [6.0, 50.0],
+              [4.0, 52.0]
+            ]
+          ]
+        }
+      }
+    }
+  ]
+}
